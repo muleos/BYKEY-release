@@ -9,7 +9,7 @@
 | | |
 |---|---|
 | 包名 | `com.hmos.BydNearkey` |
-| 当前版本 | v0.9.95（versionCode 1000095） |
+| 当前版本 | v1.2.20（versionCode 1000141） |
 | 最低系统 | HarmonyOS 6.0.0 (API 20) |
 
 ## 主要功能
@@ -34,10 +34,10 @@
 ## 安装
 
 ```bash
-unzip BydNearKey-v0.9.95-unsigned.zip
+unzip BydNearKey-v1.2.20-unsigned.zip
 hdc list targets
-hdc install -r BydNear-v0.9.95-unsigned.app    # 未签名包，需先自行签名
-hdc install -r BydNearKey-v0.9.95-unsigned.hap # 或直接装单 HAP
+hdc install -r BydNear-v1.2.20-unsigned.app    # 未签名包，需先自行签名
+hdc install -r BydNearKey-v1.2.20-unsigned.hap # 或直接装单 HAP
 ```
 
 > 未签名包装到真机需设备已开启开发者模式；长期使用请用自己的证书重新签名。
