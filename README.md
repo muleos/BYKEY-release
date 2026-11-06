@@ -9,7 +9,7 @@
 | | |
 |---|---|
 | 包名 | `com.hmos.BydNearkey` |
-| 当前版本 | v1.4.69（versionCode 1000231） |
+| 当前版本 | v1.4.69（versionCode `1000231`） |
 | 最低系统 | HarmonyOS 6.0.0 (API 20) |
 
 ## 主要功能
@@ -35,7 +35,7 @@
 | `BydNearKey-vX.Y.Z-unsigned.zip` | App Pack 压缩包，解压得 `.app`；未签名 |
 | `BydNearKey-vX.Y.Z-unsigned.hap` | 单 HAP，不用解压；未签名 |
 
-一般直接用最新的 [v1.4.66](../../releases/latest)。GitHub 不接受 `.app` 后缀，故 App Pack 以 `.zip` 提供。
+一般直接用最新的 [v1.4.69](../../releases/latest)。GitHub 不接受 `.app` 后缀，故 App Pack 以 `.zip` 提供。
 
 ## 安装
 
@@ -47,7 +47,7 @@ hdc install -r BydNearKey-v1.4.69-unsigned.hap # 或直接装单 HAP
 ```
 
 > 未签名包装到真机需设备已开启开发者模式；长期使用请用自己的证书重新签名。
-> versionCode `1000228` 可直接覆盖 v0.9.88 及之后的所有版本，无需先卸载。
+> versionCode `1000231` 可直接覆盖 v0.9.88 及之后的所有版本，无需先卸载。
 
 ## 首次使用
 
