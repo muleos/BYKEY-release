@@ -13,7 +13,7 @@
 | | |
 |---|---|
 | 包名 | `com.hmos.bykey` |
-| 当前版本 | v1.6.15（versionCode `1000256`） |
+| 当前版本 | v1.6.24（versionCode `1000265`） |
 | 最低系统 | HarmonyOS 6.0.0 (API 20) |
 
 > v1.5.0 起应用更名为 **BY KEY**，包名由 `com.hmos.BydNearkey` 改为 `com.hmos.bykey`。
@@ -53,7 +53,7 @@
 |---|---|
 | `BYKEY-vX.Y.Z-unsigned.hap` | 单 HAP，未签名，需自签后安装 |
 
-直接用最新的 [v1.6.15](../../releases/latest)。**只提供 HAP**，不再提供 App Pack 压缩包。
+直接用最新的 [v1.6.24](../../releases/latest)。**只提供 HAP**，不再提供 App Pack 压缩包。
 
 > 不想折腾签名的话，用上面的[华为应用市场邀测](#华为应用市场邀测推荐)链接装正式签名版。
 
@@ -61,7 +61,7 @@
 
 ```bash
 hdc list targets
-hdc install -r BYKEY-v1.6.15-unsigned.hap   # 未签名包，需先自行签名
+hdc install -r BYKEY-v1.6.24-unsigned.hap   # 未签名包，需先自行签名
 ```
 
 > 未签名包装到真机需设备已开启开发者模式；长期使用请用自己的证书重新签名。
