@@ -13,7 +13,7 @@
 | | |
 |---|---|
 | 包名 | `com.hmos.bykey` |
-| 当前版本 | v1.8.17（versionCode `1000457`） |
+| 当前版本 | v1.8.35（versionCode `1000475`） |
 | 最低系统 | HarmonyOS 6.1.1 (API 24) |
 
 > v1.5.0 起应用更名为 **BY KEY**，包名由 `com.hmos.BydNearkey` 改为 `com.hmos.bykey`。
